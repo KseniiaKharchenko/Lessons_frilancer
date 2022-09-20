@@ -1,0 +1,57 @@
+h1 {
+	font-family: "Larsseit";
+	font-weight: 700;
+}
+h3 {
+	font-family: "Lato";
+	font-weight: 900;
+	color: rgb(114, 180, 61);
+}
+p {
+	font-family: "Roboto";
+	font-weight: 500;
+}
+img {
+	max-width: 100%;
+}
+#main-title {
+	color: rgb(122, 36, 36);
+}
+div.text {
+	color: aqua;
+}
+.text .item-title {
+	color: red;
+}
+.item-fourteen,
+.item-sixteen,
+.item-twenty {
+	color: rgb(255, 217, 0);
+}
+.paragraph.text{
+	color: orange;
+}
+.item-twelve > p{
+	color: rgb(134, 104, 38);
+}
+.item-title + p{
+	color: rgb(255, 81, 226);
+}
+.text {
+	color: rgb(161, 219, 161);
+}
+span {
+	color: wheat;
+}
+p span {
+	color: blue;
+}
+.item-sixteen ~ div{
+	color: rgb(175, 23, 23);
+}
+.up *{
+	color: rgb(91, 176, 255);
+}
+h3 span{
+	color: rgb(75, 147, 255);
+}
