@@ -1,0 +1,154 @@
+main {
+	text-align: center;
+	font-size: 20px;
+	padding: 24px 33px 27px 14px;
+	background-color: rgba(247, 245, 245, 0.795);
+	margin-top: -10px;
+}
+.last-paragraph,
+.en-text {
+font-family: "Helvetica", sans-serif;
+font-weight: 400;
+text-shadow: 0px 3px 3px rgb(255, 72, 0);
+}
+h1 {
+	font-family: "Rubik Moonrocks", fantasy;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(235, 33, 67);
+	letter-spacing: 2px;
+}
+.span-h1 {
+	font-size: 30px;
+	color: brown;
+}
+h2 {
+	color: rgb(214, 20, 62);
+	font-family: "Philosopher";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 28px;
+	text-align: center;
+}
+.content-conteiner.content-second,
+.content-conteiner.content-fourth,
+.content-conteiner.content-sixth {
+	margin: 18px 12px 25px 8px;
+}
+.content-conteiner.content-first,
+.content-conteiner.content-third,
+.content-conteiner.content-fifth {
+margin: 35px 50px 16px 60px;
+}
+
+.content-fourth ~ div {
+	color: green;
+	padding: 14px 40px;
+}
+.content-fifth + div {
+	color: rgb(79, 114, 230);
+	text-shadow: 2px -2px 5px rgb(0, 128, 96);
+}
+.content-six-title {
+	color: rgb(79, 114, 230);
+	text-shadow: -2px 2px 4px goldenrod, 2px -2px 5px rgb(0, 128, 96);
+}
+.paragraph-first {
+	font-family: "Philosopher", serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 25px;
+}
+.paragraph-second {
+	font-family: "Philosopher", serif;
+	font-weight: 700;
+	font-style: normal;
+	padding: 10px 5px 22px;
+}
+.paragraph-first-part-two {
+font-family: "Open Sans", sans-serif;
+font-style: normal;
+font-weight: 500;
+padding: 35px 15px ;
+}
+.paragraph-second-part-two {
+	font-family: "Open Sans", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	padding: 40px 2px 12px 50px;
+}
+.title-number {
+	text-decoration: overline;
+	color: rgb(39, 136, 14);
+	text-shadow: -2px 2px 4px goldenrod;
+}
+.content-third p {
+	text-decoration: underline;
+}
+.span-line-through {
+	text-decoration: line-through;
+color: rgb(215, 186, 243);
+}
+.content-second p{
+	text-transform: capitalize;
+	color: rgb(119, 66, 218);
+}
+p.text {
+	text-transform: lowercase;
+}
+.orbit-img,
+.orbit-text {
+text-align: right;
+}
+.content-fourth .paragraph-first {
+	text-align: justify;
+	color: rgba(0, 0, 255, 0.63);
+	line-height: 1.5;
+}
+.content-third .paragraph-second {
+color: #e60f8c;
+word-spacing: 40px;
+}
+.content-first .paragraph-second {
+	white-space: nowrap;
+}
+.content-first p,
+.content-fourth .paragraph-second{
+	text-indent: 40px;
+	color: rgb(255, 140, 140);
+	background-color: rgba(255, 228, 196, 0.5);
+}
+.content-first {
+	padding: 5px 15px 24px 30px;
+}
+.main-en-text {
+	margin: 80px;
+}
+.content-second-without-title {
+	display: flex;
+	background-color: rgba(255, 236, 175, 0.623);
+}
+.orbit-text {
+	text-align: justify;
+	padding: 45px 15px 35px;
+}
+.content-fifth {
+	background-color: #DEE1FF;
+}
+
+
+
+
+footer {
+	font-family: "Rubik Moonrocks";
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: right;
+	padding: 20px 24px;
+	background-color: #dee1ff65;
+}
+.link-website{
+	font-size: 20px;
+	color: brown;
+}
