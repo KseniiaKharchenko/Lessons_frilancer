@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="__container"]{
+	max-width: 1230px;
+	margin: 0 auto;
+}
+[class*="__section"]{
+	max-width: 810px;
+	margin: 0 auto;
+}
+main{
+	font-family: "Lato";
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.title__main-title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.article__title{
+margin-bottom: 92px;
+}
+.image img{
+	max-width: 100%;
+}
+.article__image{
+	margin-bottom: 60px;
+}
+.main-text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1E212C;
+}
+.article__main-text{
+	margin-bottom: 24px;
+}
+.article__text p:last-child{
+	margin-bottom: 48px;
+}
+.article__text p:not(:last-child){
+	padding-bottom: 24px;
+}
+.article__blockquote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	padding-left: 58px;
+	background: url("../img/icons/braces.svg") 0 0 / 28px 20px no-repeat;
+	margin-bottom: 48px;
+}
+.list-block__list li:not(:last-child){
+	margin-bottom: 4px;
+}
+ul.list-block__list li{
+	padding-left: 32px;
+	background: url("../img/icons/check.svg") 0 5px / 16px no-repeat;
+	min-height: 26px;
+}
+ul.list-block__list{
+	margin-bottom: 24px;
+}
+.about-preview__list ul li:not(:last-child){
+	margin-bottom: 12px;
+}
+.title__subtitle{
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+	color: #1E212C;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.benefits__list li{
+	padding-left: 24px;
+}
+.list-benefits__tutors{
+	background: url("../img/icons/star.svg") 0 5px no-repeat;
+}
+.list-benefits__support{
+	background: url("../img/icons/like.svg") 0 5px no-repeat;
+}
+.list-benefits__library{
+	background: url("../img/icons/layouts.svg") 0 5px no-repeat;
+}
+.list-benefits__community{
+	background: url("../img/icons/chat.svg") 0 5px no-repeat;
+}
+.card__price{
+	color: #FF4242;
+}
+.list-benefits__tutors--color-red{
+	color: #FF3F3A;
+}
+.text-title{
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 130%;
+	color: #1E212C;
+}
